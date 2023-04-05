@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(252, 248, 243);
+}
+a{
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+}
+.header{
+ width: 100%;  
+}
+.redes-s{
+    display: flex;
+    margin-left: 80%;
+    margin-top: 0;
+}
+.redes-s img{
+    width: 15%;
+    opacity: 40%;
+}
+.nav-head li{
+    width: 140px;
+    list-style: none;
+    position: relative;
+    text-align: center center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1%;
+    padding: 0 0 0 50px;
+}
+.a-mesup{
+    color: rgb(87, 85, 85);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+    padding-left: 15%;
+    border-left: 1px solid rgb(87, 85, 85);
+}
+.a-mesupe{
+    color: rgb(87, 85, 85);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+/*.caja-imgppal{
+    background-image: url("../images/img_ppal.png");
+    background-size: cover;
+    height: 70vh;
+    background-position: center center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    }
+/*.texto-imgppal{
+    position: absolute;
+    top: 465px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(241, 235, 227);
+    left: 30%;
+    text-shadow: 10px 5px 5px rgb(133, 131, 131) 35%;
+}*/
+.caja-imgppal{
+    width: 100%;
+    position: relative;
+}
+.caja-imgppal h1{
+    font-size: 3rem;
+    color: beige;
+    position: absolute;
+    top: 80%;
+    left: 18%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 3px 8px black;
+
+}
+.nav-footer li{
+    width: 100px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(250, 242, 224);
+    border-left: 1px solid ;
+}
+footer{
+    background-color: rgb(250, 242, 224);
+    text-align: center;
+    padding: 10px;
+    }
+
+.formulario-cont{
+        background-color: rgb(250, 242, 224);
+    }
+.caja-reg{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
+.teximgsecon p{
+    width: 50%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+.descargaapp{
+    width: 50%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+.filosofia{
+    width: 50%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+/*.seguinos{
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+
+}
+.seguinos img{
+    width: 3%;
+    display:flex;
+}
+*/
+.seguinos{
+    display: flex;
+    justify-content: center;   
+}
+.redes img{
+    width: 10%;
+    padding-right: 5px;
+}
+.redes a{
+    height: 100%;
+    display: inline-block;
+}
+.datos_inf{
+    font-size: 12px;
+}
+.tarjeta{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: stretch;
+height: 100%;
+}
+.daniela{
+    display: flex;
+    width: 90%;
+}
+.daniela img{
+width: 25%;
+}
+.daniela h1 p{
+    width: 50%;
+}
+.nacim{
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
